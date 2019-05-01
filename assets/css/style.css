@@ -2,35 +2,42 @@
 html {
     min-height: 100%;
     width: 100%;
-    border-style: dashed;
 }
 
 body {
     background-image: url("../../assets/images/backdrop.jpg");
     min-height: 100%;
     width: 100%;
-    padding: 30px;
+    padding: 100px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     z-index: -1;
+  
    }
 
 
 .container {
 
 
-    position: center;
+    position: center center;
     width: 70%;
+    min-height: 500px;
     padding: 15px, 15px;
     padding-bottom: 5px;
+    background-color: blue;
+    border: 40px;
+    border-color: black;
+    border-radius: 20px;
+    border-style: solid;
+    
 }
 
-#tv{
-    background-image: url("../../assets/images/userInterface.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 
 
+h1 {
+    font-size: 70px;
+    position: relative center;
+   
 }
+
